@@ -105,6 +105,7 @@ Upgrades
 	//building upgrades
 	
 	*buildingUpgrade1
+	/*
 		name:Sippy bottles
 		desc:Your badGrade can drink their fill!<//><b>Effect:</b><.>rabbit cage production x2<.>rabbit hutch production x2<.>rabbit coop production x2
 		icon:icons[2,0] icons[3,0]
@@ -113,7 +114,7 @@ Upgrades
 		passive:multiply yield of hutch by 2
 		passive:multiply yield of coop by 2
 		req:(cages>=10 or hutches>=10 or coops>=10)
-		
+	*/
 		
 	//golden carrot upgrades
 	
@@ -160,7 +161,7 @@ Achievements
 	*bunnyAchiev1
 		name:Run rabbit run
 		desc:Have <b>1</b> bunny.
-		req:1 bunny
+		req:1 badGrade
 		icon:icons[2,4] icons[0,2] icons[0,6]
 	*bunnyAchiev2
 		name:badGradet home videos
