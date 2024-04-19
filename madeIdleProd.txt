@@ -99,87 +99,8 @@ Upgrades
 		desc:A nice little supplement to your badGrade' diet.<//><b>Effect:</b><.>+1 bunny/click
 		icon:icons[1,1]
 		cost:100 badGrade
-		passive:increase bunny yield of bunnyButton by 1
+		passive:increase badGrade yield of bunnyButton by 1
 		req:10 badGrade:earned
-		
-	*spinach
-		name:Spinach
-		desc:Big tasty leaves, perfect for hungry badGrade.<//><b>Effect:</b><.>+1 bunny/click
-		icon:icons[1,2]
-		cost:200 badGrade
-		passive:increase bunny yield of bunnyButton by 1
-		req:50 badGrade:earned
-		
-	*lettuce
-		name:Lettuce
-		desc:Frilly greens loved by all badGrade.<//><b>Effect:</b><.>+1 bunny/click
-		icon:icons[1,3]
-		cost:400 badGrade
-		passive:increase bunny yield of bunnyButton by 1
-		req:200 badGrade:earned
-		
-	*broccoli
-		name:Broccoli
-		desc:Crunchy greens that look like little trees.<//><b>Effect:</b><.>badGrade/click x2<.>bunny production +5%
-		icon:icons[1,4]
-		cost:3000 badGrade
-		passive:multiply bunny yield of bunnyButton by 2
-		passive:multiply yield of badGrade by 1.05
-		req:1000 badGrade:earned
-		
-	*apple
-		name:Apple
-		desc:Nice pieces of juicy red apples.<//><b>Effect:</b><.>badGrade/click x1.5<.>bunny production +5%
-		icon:icons[1,5]
-		cost:10000 badGrade
-		passive:multiply bunny yield of bunnyButton by 1.5
-		passive:multiply yield of badGrade by 1.05
-		req:1000 badGrade:earned
-		
-	*radish
-		name:Radish
-		desc:Purple, crunchy, and strangely spicy.<//><b>Effect:</b><.>badGrade/click x1.5<.>bunny production +5%
-		icon:icons[1,6]
-		cost:50000 badGrade
-		passive:multiply bunny yield of bunnyButton by 1.5
-		passive:multiply yield of badGrade by 1.05
-		req:10000 badGrade:earned
-		
-	*mint
-		name:Mint
-		desc:Tasty, and gives your badGrade a lovely breath.<//><b>Effect:</b><.>badGrade/click x1.5<.>bunny production +5%
-		icon:icons[1,7]
-		cost:100000 badGrade
-		passive:multiply bunny yield of bunnyButton by 1.5
-		passive:multiply yield of badGrade by 1.05
-		req:50000 badGrade:earned
-		
-	*chard
-		name:Chard
-		desc:Broad leaves that make for a tasty salad.<//><b>Effect:</b><.>badGrade/click x1.5<.>bunny production +5%
-		icon:icons[1,8]
-		cost:500000 badGrade
-		passive:multiply bunny yield of bunnyButton by 1.5
-		passive:multiply yield of badGrade by 1.05
-		req:100000 badGrade:earned
-		
-	*cherry
-		name:Cherry
-		desc:Your badGrade look like little vampires when they start munching on these!<//><b>Effect:</b><.>badGrade/click x1.5<.>bunny production +5%
-		icon:icons[1,9]
-		cost:1000000 badGrade
-		passive:multiply bunny yield of bunnyButton by 1.5
-		passive:multiply yield of badGrade by 1.05
-		req:500000 badGrade:earned
-		
-	*carrot
-		name:Carrot
-		desc:The quintessential rabbit food! Crunchy, orange, and perfect.<//><b>Effect:</b><.>badGrade/click x2<.>bunny production +10%
-		icon:icons[1,0]
-		cost:100000000 badGrade
-		passive:multiply bunny yield of bunnyButton by 2
-		passive:multiply yield of badGrade by 1.1
-		req:1000000 badGrade:earned
 	
 	//building upgrades
 	
@@ -193,69 +114,6 @@ Upgrades
 		passive:multiply yield of coop by 2
 		req:(cages>=10 or hutches>=10 or coops>=10)
 		
-	*buildingUpgrade2
-		name:Prime grade hay
-		desc:Not just for horses anymore!<//><b>Effect:</b><.>rabbit cage production x2<.>rabbit hutch production x2<.>rabbit coop production x2
-		icon:icons[2,0] icons[3,1]
-		cost:100000 badGrade
-		passive:multiply yield of cage by 2
-		passive:multiply yield of hutch by 2
-		passive:multiply yield of coop by 2
-		req:(cages>=50 or hutches>=50 or coops>=50)
-		
-	*buildingUpgrade3
-		name:Shredded newspapers
-		desc:You'd think they just poop on these, but they really enjoy reading the Sunday comics.<//><b>Effect:</b><.>rabbit cage production x2<.>rabbit hutch production x2<.>rabbit coop production x2
-		icon:icons[2,0] icons[3,2]
-		cost:5000000 badGrade
-		passive:multiply yield of cage by 2
-		passive:multiply yield of hutch by 2
-		passive:multiply yield of coop by 2
-		req:(cages>=100 or hutches>=100 or coops>=100)
-		
-	*buildingUpgrade4
-		name:Pretty fences
-		desc:Just the right size so your badGrade can peek through but not hop over!<//><b>Effect:</b><.>rabbit pen production x2<.>rabbit meadow production x2
-		icon:icons[2,0] icons[3,3]
-		cost:50000 badGrade
-		passive:multiply yield of pen by 2
-		passive:multiply yield of meadow by 2
-		req:(pens>=10 or meadows>=10)
-		
-	*buildingUpgrade5
-		name:Bunny playground
-		desc:If your badGrade are outside, they might as well get some exercise!<//><b>Effect:</b><.>rabbit pen production x2<.>rabbit meadow production x2
-		icon:icons[2,0] icons[3,4]
-		cost:5000000 badGrade
-		passive:multiply yield of pen by 2
-		passive:multiply yield of meadow by 2
-		req:(pens>=50 or meadows>=50)
-		
-	*buildingUpgrade6
-		name:Bunny TVs
-		desc:Televisions that broadcast bunny cartoons, bunny sitcoms, and bunny news bulletins.<//><b>Effect:</b><.>rabbit village production x2<.>rabbit city production x2
-		icon:icons[2,0] icons[3,5]
-		cost:1000000 badGrade
-		passive:multiply yield of village by 2
-		passive:multiply yield of city by 2
-		req:(villages>=10 or cities>=10)
-		
-	*buildingUpgrade7
-		name:Wee little bunny cars
-		desc:Your badGrade drive around in these. How nice!<//><b>Effect:</b><.>rabbit village production x2<.>rabbit city production x2
-		icon:icons[2,0] icons[3,6]
-		cost:500000000 badGrade
-		passive:multiply yield of village by 2
-		passive:multiply yield of city by 2
-		req:(villages>=50 or cities>=50)
-		
-	*buildingUpgrade8
-		name:Soothing moon crystals
-		desc:Just really nice to be around.<//><b>Effect:</b><.>moon citadel production x2
-		icon:icons[2,0] icons[3,7]
-		cost:1000000000 badGrade
-		passive:multiply yield of citadel by 2
-		req:10 citadels
 		
 	//golden carrot upgrades
 	
