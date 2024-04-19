@@ -1,7 +1,7 @@
 Let's make a game!
 	name:MADE Clicker
-	by:Orteil
-	desc:This is a simple idle game to showcase some of the basic functionalities of Idle Game Maker.<//>Make badGrade and shoot for the stars!
+	by:Haiku
+	desc:An idle game made from references in MADE '23.
 	created:19/04/2024
 	updated:19/04/2024
 	version:0.1
@@ -37,9 +37,9 @@ Resources
 		class:noBackground
 		show earned
 		
-	*goldenCarrot|goldenCarrots
-		name:Golden carrot|Golden carrots
-		desc:These shiny carrots are terribly rare, terribly precious and terribly delicious!
+	*mina
+		name:Mina|Minas
+		desc:The ULTRA rare, one of a kind, <b>Mina.</b>
 		icon:icons[0,1]
 		class:noBackground
 		hidden when 0
@@ -58,11 +58,11 @@ Shinies
 			if (chance(25%))
 				//get at least 7, or between 1 and 3 minutes of our bunny production
 				$amount=max(7,random(badGrade:ps*60*1,badGrade:ps*60*3))*$boost
-				toast The lucky bunny grants you<//><b>[$amount] badGrade</b>.
+				toast Mina gives you<//><b>[$amount] bad grades</b>.
 				yield $amount badGrade
 			else
 				$amount=1*$boost
-				toast The lucky bunny grants you<//><b>[$amount] golden carrot[s?$amount]</b>!
+				toast Mina gives you<//><b>[$amount] bad grade[s?$amount]</b>!
 				yield $amount goldenCarrot
 			end
 		end
@@ -72,19 +72,19 @@ Buildings
 		on click:anim glow
 		
 	*cage|cages
-		name:Rabbit cage|Rabbit cages
-		desc:A tiny little cage.<//><b>Effect:</b><.>Produces 1 rabbit every 10 seconds.
+		name:PM Class|PM Classes
+		desc:The original!<//><b>Effect:</b><.>Produces 1 bad grade every 10 seconds. (0.1/s)
 		icon:icons[3,0]
 		cost:15 badGrade
 		on tick:yield 0.1 badGrade
 		unlocked
 	
-	*hutch|hutches
-		name:Rabbit hutch|Rabbit hutches
-		desc:A bit roomier than a cage, with enough space to hop around.<//><b>Effect:</b><.>Produces 1 rabbit every 2 seconds.
+	*illustrator|illustrators
+		name:Adobe Illustrator|Adobe Illustrators
+		desc:Your mental health is upmost important! (lying)<//><b>Effect:</b><.>Produces 1 rabbit every second.
 		icon:icons[3,1]
 		cost:100 badGrade
-		on tick:yield 0.5 badGrade
+		on tick:yield 1 badGrade
 		req:100 badGrade:earned
 		
 Upgrades
@@ -103,9 +103,8 @@ Upgrades
 		req:10 badGrade:earned
 	
 	//building upgrades
-	
-	*buildingUpgrade1
 	/*
+	*buildingUpgrade1
 		name:Sippy bottles
 		desc:Your badGrade can drink their fill!<//><b>Effect:</b><.>rabbit cage production x2<.>rabbit hutch production x2<.>rabbit coop production x2
 		icon:icons[2,0] icons[3,0]
