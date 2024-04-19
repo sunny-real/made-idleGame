@@ -20,7 +20,7 @@ Buttons
 		name:Do an assignment
 		desc:Click this to lower your grade!
 		on click:anim icon wobble
-		on click:yield 15000 bunny
+		on click:yield 1 badGrade
 		on click:if (have goldenTouch and chance(1%)) yield 1 goldenCarrot
 		icon:stuff/bunny.png
 		no text
@@ -76,7 +76,7 @@ Buildings
 		desc:A tiny little cage.<//><b>Effect:</b><.>Produces 1 rabbit every 10 seconds.
 		icon:icons[3,0]
 		cost:15 bunnies
-		on tick:yield 0.1 bunny
+		on tick:yield 0.1 badGrade
 		unlocked
 	
 	*hutch|hutches
@@ -84,67 +84,8 @@ Buildings
 		desc:A bit roomier than a cage, with enough space to hop around.<//><b>Effect:</b><.>Produces 1 rabbit every 2 seconds.
 		icon:icons[3,1]
 		cost:100 bunnies
-		on tick:yield 0.5 bunnies
+		on tick:yield 0.5 badGrade
 		req:100 bunnies:earned
-	
-	*coop|coops
-		name:Rabbit coop|Rabbit coops
-		desc:A much nicer rabbit home where full bunny families can live.<//><b>Effect:</b><.>Produces 5 rabbits per second.
-		icon:icons[3,2]
-		cost:600 bunnies
-		on tick:yield 5 bunnies
-		req:600 bunnies:earned
-	
-	*pen|pens
-		name:Rabbit pen|Rabbit pens
-		desc:A lovely enclosure with plenty of green space.<//><b>Effect:</b><.>Produces 12 rabbits per second.
-		icon:icons[3,3]
-		cost:4000 bunnies
-		on tick:yield 12 bunnies
-		req:4000 bunnies:earned
-	
-	*meadow|meadows
-		name:Rabbit meadow|Rabbit meadows
-		desc:A wide open space full of shade and lush grass.<//><b>Effect:</b><.>Produces 90 rabbits per second.
-		icon:icons[3,4]
-		cost:20000 bunnies
-		on tick:yield 90 bunnies
-		req:20000 bunnies:earned
-	
-	*village|villages
-		name:Rabbit village|Rabbit villages
-		desc:Your bunnies are building their own villages now!<//><b>Effect:</b><.>Produces 300 rabbits per second.
-		icon:icons[3,5]
-		cost:200000 bunnies, 1 goldenCarrot
-		on tick:yield 300 bunnies
-		req:200000 bunnies:earned and independenceDay
-		
-	*city|cities
-		name:Rabbit city|Rabbit cities
-		desc:A bustling little city, populated with busy rabbits.<//><b>Effect:</b><.>Produces 1000 rabbits per second.
-		icon:icons[3,6]
-		cost:3000000 bunnies, 4 goldenCarrots
-		on tick:yield 1000 bunnies
-		req:3000000 bunnies:earned and independenceDay
-		
-	*citadel|citadels
-		name:Moon citadel|Moon citadels
-		desc:An ornate palace standing on the moon, ruled by bunny kings and queens and staffed with royal bunny guards.<//><b>Effect:</b><.>Produces 4000 rabbits per second.
-		icon:icons[3,7]
-		cost:70000000 bunnies, 16 goldenCarrots
-		on tick:yield 4000 bunnies
-		on tick:if (have moonGardens) yield 0.01 goldenCarrot
-		req:70000000 bunnies:earned and independenceDay
-		
-	*fortress
-		name:Freedom fortress
-		text:Freedom fortress ([this]%)
-		desc:A huge bunny castle. A monument to the adventurous spirit of bunnykind, which will take time and effort to complete.<//><b>The fortress is [this]% complete.</b>
-		icon:icons[3,8]
-		cost:300000000 bunnies, 100 goldenCarrots
-		req:70000000 bunnies:earned and independenceDay
-		limit:100
-		cost increase:105%
 		
 Upgrades
 	*TEMPLATE
