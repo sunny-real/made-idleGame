@@ -17,23 +17,23 @@ Layout
 		
 Buttons
 	*bunnyButton
-		name:Make a bunny
-		desc:Click this little bunny to get more bunnies!
+		name:Do an assignment
+		desc:Click this to lower your grade!
 		on click:anim icon wobble
-		on click:yield 1 bunny
+		on click:yield 15000 bunny
 		on click:if (have goldenTouch and chance(1%)) yield 1 goldenCarrot
 		icon:stuff/bunny.png
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
-		tooltip origin:bottom
+		tooltip origin:top
 		tooltip class:red
 		
 Resources
-	*bunny|bunnies
-		name:Bunny|Bunnies
-		desc:These are your bunnies. You can use them to purchase things. Your goal is to have as many bunnies as possible!
-		icon:icons[0,0]
+	*|badGrade
+		name:Bad Grade|Bad Grades
+		desc:Suazo finally decided to grade your assignments.
+		icon:https://i.ibb.co/x2r56yQ/bad-Grade-Img.jpg
 		class:noBackground
 		show earned
 		
