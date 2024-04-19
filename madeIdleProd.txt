@@ -30,7 +30,7 @@ Buttons
 		tooltip class:red
 		
 Resources
-	*|badGrade
+	*badGrade
 		name:Bad Grade|Bad Grades
 		desc:Suazo finally decided to grade your assignments.
 		icon:https://i.ibb.co/x2r56yQ/bad-Grade-Img.jpg
