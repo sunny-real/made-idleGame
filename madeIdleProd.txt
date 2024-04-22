@@ -22,7 +22,7 @@ Buttons
 		on click:anim icon wobble
 		on click:yield 1 badGrade
 		on click:if (have goldenTouch and chance(1%)) yield 1 mina
-		icon:stuff/bunny.png
+		icon:https://i.ibb.co/FXfdn0X/suaz.png
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
@@ -33,7 +33,7 @@ Resources
 	*badGrade|badGrades
 		name:Bad Grade|Bad Grades
 		desc:Suazo finally decided to grade your assignments.
-		icon:https://i.ibb.co/x2r56yQ/bad-Grade-Img.jpg
+		icon:https://i.ibb.co/8gjtsdm/badGrade.png
 		class:noBackground
 		show earned
 		
@@ -81,8 +81,8 @@ Buildings
 	
 	*illustrator|illustrators
 		name:Adobe Illustrator|Adobe Illustrators
-		desc:Your mental health is upmost important! (lying)<//><b>Effect:</b><.>Produces 1 rabbit every second.
-		icon:icons[3,1]
+		desc:Your mental health is upmost important! (lying)<//><b>Effect:</b><.>Produces 1 bad grade every second.
+		icon:https://i.ibb.co/bLz01h8/Adobe-Illustrator-CC-icon.png
 		cost:100 badGrade
 		on tick:yield 1 badGrade
 		req:100 badGrade:earned
@@ -95,8 +95,8 @@ Upgrades
 	//inspiration : http://rabbit.org/suggested-vegetables-and-fruits-for-a-rabbit-diet/
 	
 	*parsley
-		name:Parsley
-		desc:A nice little supplement to your badGrade' diet.<//><b>Effect:</b><.>+1 bunny/click
+		name:Egyption Prowess
+		desc:Mina bestows you with the egyption power.<//><b>Effect:</b><.>+1 bad grade/click
 		icon:icons[1,1]
 		cost:100 badGrade
 		passive:increase badGrade yield of bunnyButton by 1
@@ -119,7 +119,7 @@ Upgrades
 	
 	*goldenTouch
 		name:Golden touch
-		desc:The delicate art of finding vegetables made of precious metals.<//><b>Effect:</b><.>1% chance of gaining 1 golden carrot per bunny click
+		desc:Using the power of <b>MINA</b> you get, <//><.>1% chance of gaining 1 golden carrot per bunny click
 		icon:icons[2,5]
 		cost:1 mina
 		req:1 mina:earned
