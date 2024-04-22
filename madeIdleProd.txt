@@ -9,7 +9,7 @@ Let's make a game!
 Settings
 	background:https://i.ibb.co/Qfz7MP1/background.jpg
 	building cost refund:50%
-	spritesheet:icons, 96 by 96, stuff/bunnyIcons.png
+	spritesheet:icons, 48 by 48, stuff/bunnyIcons.png
 	stylesheet:stuff/bigBlue.css
 
 Layout
@@ -33,7 +33,7 @@ Resources
 	*badGrade|badGrades
 		name:Bad Grade|Bad Grades
 		desc:Suazo finally decided to grade your assignments.
-		icon:https://i.ibb.co/4fP4HL0/badGrade.png
+		icon:https://i.ibb.co/zFqsPS6/badGrade.png
 		class:noBackground
 		show earned
 		
