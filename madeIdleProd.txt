@@ -22,7 +22,7 @@ Buttons
 		on click:anim icon wobble
 		on click:yield 1 badGrade
 		on click:if (have goldenTouch and chance(1%)) yield 1 mina
-		icon:https://i.ibb.co/FXfdn0X/suaz.png
+		icon:https://i.ibb.co/d2wTvX2/suaz.png
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
